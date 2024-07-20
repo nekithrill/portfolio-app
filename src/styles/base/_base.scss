@@ -1,0 +1,56 @@
+html,
+body {
+	font-size: var(--default-size);
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: var(--ff-primary);
+	font-weight: var(--fw-regular);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: var(--fw-bold);
+	text-transform: uppercase;
+}
+
+h1 {
+	font-size: var(--fs-h1);
+}
+
+h2 {
+	font-size: var(--fs-h2);
+}
+
+h3 {
+	font-size: var(--fs-h3);
+}
+
+h4 {
+	font-size: var(--fs-h4);
+}
+
+h5 {
+	font-size: var(--fs-h5);
+}
+
+h6 {
+	font-size: var(--fs-h6);
+}
+
+p {
+	font-weight: var(--fw-regular);
+	text-align: justify;
+}
+
+a {
+	text-decoration: none;
+}

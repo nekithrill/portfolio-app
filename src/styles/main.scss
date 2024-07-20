@@ -1,0 +1,14 @@
+// * ABSTRACTS (breakpoints, colors, typography, variables, mixins, animations)
+@use './abstracts/index' as *;
+
+// * BASE (base styles and reset)
+@use './base/index' as *;
+
+// * LAYOUT (main parts)
+@use './layout/index' as *;
+
+// * COMPONENTS (modules)
+@use './components/index' as *;
+
+// * UTILITIES (helpers)
+@use './utilities/index' as *;

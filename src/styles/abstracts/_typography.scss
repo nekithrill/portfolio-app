@@ -1,0 +1,69 @@
+// Rubik
+@font-face {
+	font-family: 'Rubik';
+	font-weight: 400;
+	src: url('/src/assets/fonts/Rubik/Rubik-Regular.woff2') format('woff2'),
+		url('/src/assets/fonts/Rubik/Rubik-Regular.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Rubik';
+	font-weight: 500;
+	src: url('/src/assets/fonts/Rubik/Rubik-Medium.woff2') format('woff2'),
+		url('/src/assets/fonts/Rubik/Rubik-Medium.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Rubik';
+	font-weight: 700;
+	src: url('/src/assets/fonts/Rubik/Rubik-Bold.woff2') format('woff2'),
+		url('/src/assets/fonts/Rubik/Rubik-Bold.woff') format('woff');
+}
+
+// Roboto Mono
+@font-face {
+	font-family: 'Roboto Mono';
+	font-weight: 400;
+	src: url('/src/assets/fonts/Roboto-Mono/RobotoMono-Regular.woff2')
+			format('woff2'),
+		url('/src/assets/fonts/Roboto-Mono/RobotoMono-Regular.woff') format('woff');
+}
+@font-face {
+	font-family: 'Roboto Mono';
+	font-weight: 500;
+	src: url('/src/assets/fonts/Roboto-Mono/RobotoMono-Medium.woff2')
+			format('woff2'),
+		url('/src/assets/fonts/Roboto-Mono/RobotoMono-Medium.woff') format('woff');
+}
+@font-face {
+	font-family: 'Roboto Mono';
+	font-weight: 700;
+	src: url('/src/assets/fonts/Roboto-Mono/RobotoMono-Bold.woff2')
+			format('woff2'),
+		url('/src/assets/fonts/Roboto-Mono/RobotoMono-Bold.woff') format('woff');
+}
+
+:root {
+	--default-size: 16px;
+
+	// font-family
+	--ff-primary: 'Roboto Mono';
+	--ff-accent: 'Rubik';
+
+	// font-weights
+	--fw-regular: 400;
+	--fw-medium: 500;
+	--fw-bold: 700;
+
+	// font-sizes
+	--fs-h1: 3rem;
+	--fs-h2: 1.5rem;
+	--fs-h3: 1.25rem;
+	--fs-h4: 1rem;
+	--fs-h5: 0.85rem;
+	--fs-h6: 0.65rem;
+
+	--fs-logo: 2rem;
+	--fs-text: var(--fs-h4);
+	--fs-body: var(--fs-text);
+}

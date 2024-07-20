@@ -1,0 +1,65 @@
+.invisible {
+	opacity: 0;
+}
+
+.visible {
+	opacity: 1;
+}
+
+.hidden {
+	display: none;
+}
+
+.visually-hidden {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	padding: 0;
+	overflow: hidden;
+	clip: rect(0, 0, 0, 0);
+	border: 0;
+}
+
+.sr-only {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	margin: -1px;
+	overflow: hidden;
+	clip: rect(0, 0, 0, 0);
+	border: 0;
+}
+
+.flex {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.flex-sb {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.flex-sa {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.flex-column {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.flex-row {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}

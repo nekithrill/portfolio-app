@@ -1,0 +1,23 @@
+// NOTE: css properties for all browsers
+// ? USAGE: @include vendor-prefix(css-property, property-value())
+@mixin vendor-prefix($prop, $value) {
+	-webkit-#{$prop}: #{$value};
+	-moz-#{$prop}: #{$value};
+	-ms-#{$prop}: #{$value};
+	-o-#{$prop}: #{$value};
+	#{$prop}: #{$value};
+}
+
+// NOTE: keyframes for multiple browsers
+// ? USAGE: @include keyframes(name) {as default keyframe}
+@mixin keyframes($kf_name) {
+	@-webkit-keyframes #{$kf_name} {
+		@content;
+	}
+	@-moz-keyframes #{$kf_name} {
+		@content;
+	}
+	@keyframes #{$kf_name} {
+		@content;
+	}
+}
