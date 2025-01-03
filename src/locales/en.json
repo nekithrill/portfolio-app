@@ -1,0 +1,39 @@
+{
+	"tiles": {
+		"about": {
+			"title": "About me",
+			"content": {
+				"heading": "Heading",
+				"text": "Text"
+			}
+		},
+		"skills": {
+			"title": "Skills",
+			"content": {
+				"heading": "Heading",
+				"text": "Text"
+			}
+		},
+		"projects": {
+			"title": "Projects",
+			"content": {
+				"heading": "Heading",
+				"text": "Text"
+			}
+		},
+		"education": {
+			"title": "Education",
+			"content": {
+				"heading": "Heading",
+				"text": "Text"
+			}
+		},
+		"contacts": {
+			"title": "Contacts",
+			"content": {
+				"heading": "Heading",
+				"text": "Text"
+			}
+		}
+	}
+}

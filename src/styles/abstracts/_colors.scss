@@ -1,38 +1,43 @@
 :root {
 	.light-theme {
-		--clr-primary-100: hsl(150, 0%, 93%);
-		--clr-primary-200: hsl(120, 0%, 84%);
-		--clr-primary-300: hsl(126, 0%, 62%);
-		--clr-primary-400: hsl(138, 0%, 45%);
-		--clr-primary-500: hsl(138, 0%, 38%);
-		--clr-primary-600: hsl(138, 0%, 27%);
-		--clr-primary-700: hsl(138, 0%, 19%);
+		--clr-primary-100: hsl(187, 9%, 81%);
+		--clr-primary-200: hsl(193, 8%, 52%);
+		--clr-primary-300: hsl(193, 12%, 37%);
+		--clr-primary-400: hsl(189, 14%, 29%);
+		--clr-primary-500: hsl(195, 16%, 20%);
+		--clr-primary-600: hsl(194, 21%, 12%);
+		--clr-primary-700: hsl(192, 37%, 8%);
 
-		--clr-accent-100: hsl(150, 12%, 97%);
-		--clr-accent-200: hsl(120, 49%, 84%);
-		--clr-accent-300: hsl(126, 47%, 72%);
-		--clr-accent-400: hsl(138, 50%, 56%);
-		--clr-accent-500: hsl(138, 40%, 49%);
-		--clr-accent-600: hsl(138, 32%, 44%);
-		--clr-accent-700: hsl(138, 20%, 36%);
-		--clr-accent-800: hsl(138, 20%, 25%);
+		--clr-accent-100: hsl(193, 40%, 81%);
+		--clr-accent-200: hsl(193, 38%, 52%);
+		--clr-accent-300: hsl(193, 100%, 24%);
+		--clr-accent-400: hsl(193, 100%, 20%);
+		--clr-accent-500: hsl(193, 100%, 16%);
+		--clr-accent-600: hsl(193, 100%, 12%);
+		--clr-accent-700: hsl(193, 100%, 8%);
+
+		--border-color: cyan;
+		--layout-border: 0.15rem solid var(--border-color);
 	}
 
 	.dark-theme {
-		--clr-primary-100: hsl(138, 0%, 19%);
-		--clr-primary-200: hsl(138, 0%, 27%);
-		--clr-primary-300: hsl(138, 0%, 38%);
-		--clr-primary-400: hsl(138, 0%, 45%);
-		--clr-primary-500: hsl(126, 0%, 62%);
-		--clr-primary-600: hsl(120, 0%, 84%);
-		--clr-primary-700: hsl(150, 0%, 93%);
+		--clr-primary-100: hsl(192, 37%, 8%);
+		--clr-primary-200: hsl(194, 21%, 12%);
+		--clr-primary-300: hsl(195, 16%, 20%);
+		--clr-primary-400: hsl(189, 14%, 29%);
+		--clr-primary-500: hsl(193, 12%, 37%);
+		--clr-primary-600: hsl(193, 8%, 52%);
+		--clr-primary-700: hsl(187, 9%, 81%);
 
-		--clr-accent-100: hsl(138, 20%, 36%);
-		--clr-accent-200: hsl(138, 32%, 44%);
-		--clr-accent-300: hsl(138, 40%, 49%);
-		--clr-accent-400: hsl(138, 50%, 56%);
-		--clr-accent-500: hsl(126, 47%, 72%);
-		--clr-accent-600: hsl(120, 49%, 84%);
-		--clr-accent-700: hsl(150, 12%, 97%);
+		--clr-accent-100: hsl(193, 100%, 8%);
+		--clr-accent-200: hsl(193, 100%, 12%);
+		--clr-accent-300: hsl(193, 100%, 16%);
+		--clr-accent-400: hsl(193, 100%, 20%);
+		--clr-accent-500: hsl(193, 100%, 24%);
+		--clr-accent-600: hsl(193, 38%, 52%);
+		--clr-accent-700: hsl(193, 40%, 81%);
+
+		--border-color: yellow;
+		--layout-border: 0.15rem solid var(--border-color);
 	}
 }

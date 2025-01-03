@@ -1,0 +1,39 @@
+{
+	"tiles": {
+		"about": {
+			"title": "Обо мне",
+			"content": {
+				"heading": "Оглавление",
+				"text": "Текст"
+			}
+		},
+		"skills": {
+			"title": "Навыки",
+			"content": {
+				"heading": "Оглавление",
+				"text": "Текст"
+			}
+		},
+		"projects": {
+			"title": "Проекты",
+			"content": {
+				"heading": "Оглавление",
+				"text": "Текст"
+			}
+		},
+		"education": {
+			"title": "Образование",
+			"content": {
+				"heading": "Оглавление",
+				"text": "Текст"
+			}
+		},
+		"contacts": {
+			"title": "Контакты",
+			"content": {
+				"heading": "Оглавление",
+				"text": "Текст"
+			}
+		}
+	}
+}

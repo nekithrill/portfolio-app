@@ -54,3 +54,18 @@ p {
 a {
 	text-decoration: none;
 }
+
+.app {
+	min-height: 100vh;
+	width: 100%;
+	position: relative;
+	z-index: 1;
+
+	flex: 1;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-direction: column;
+
+	background-color: #aaa;
+}

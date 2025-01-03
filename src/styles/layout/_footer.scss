@@ -1,0 +1,37 @@
+.footer {
+	position: relative;
+
+	width: 60%;
+	height: 5rem;
+
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+
+	font-family: var(--ff-accent);
+
+	border-radius: 1rem 1rem 0 0;
+	border: var(--layout-border);
+	border-bottom: none;
+
+	background-color: gray;
+
+	&__links {
+		display: flex;
+		gap: 1rem;
+
+		font-weight: var(--fw-medium);
+		text-decoration: none;
+
+		& a {
+			color: yellow;
+			transition: all 0.4s ease-in-out;
+			outline: none;
+
+			&:hover,
+			&:focus {
+				color: orange;
+			}
+		}
+	}
+}

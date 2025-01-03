@@ -1,0 +1,25 @@
+.header {
+	position: relative;
+
+	width: 60%;
+	height: 5rem;
+
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	align-items: center;
+	justify-items: center;
+	gap: 1.5rem;
+
+	border-radius: 0 0 1rem 1rem;
+	border: var(--layout-border);
+	border-top: none;
+
+	background-color: gray;
+
+	&__settings {
+		display: grid;
+		grid-template-columns: 2fr 1fr;
+		justify-items: center;
+		gap: 1rem;
+	}
+}
